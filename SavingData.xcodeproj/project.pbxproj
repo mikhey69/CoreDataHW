@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D641880920D29AC00077BF05 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D641880720D29AC00077BF05 /* Person+CoreDataClass.swift */; };
+		D641880A20D29AC00077BF05 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D641880820D29AC00077BF05 /* Person+CoreDataProperties.swift */; };
 		D6C86B7F20D197E6003FAD06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C86B7E20D197E6003FAD06 /* AppDelegate.swift */; };
 		D6C86B8120D197E6003FAD06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C86B8020D197E6003FAD06 /* ViewController.swift */; };
 		D6C86B8420D197E6003FAD06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C86B8220D197E6003FAD06 /* Main.storyboard */; };
 		D6C86B8720D197E6003FAD06 /* SavingData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6C86B8520D197E6003FAD06 /* SavingData.xcdatamodeld */; };
 		D6C86B8920D197E8003FAD06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C86B8820D197E8003FAD06 /* Assets.xcassets */; };
 		D6C86B8C20D197E8003FAD06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C86B8A20D197E8003FAD06 /* LaunchScreen.storyboard */; };
+		D6C86B9420D1A2E1003FAD06 /* PersistenceServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C86B9320D1A2E1003FAD06 /* PersistenceServise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D641880720D29AC00077BF05 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D641880820D29AC00077BF05 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D6C86B7B20D197E6003FAD06 /* SavingData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavingData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C86B7E20D197E6003FAD06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6C86B8020D197E6003FAD06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		D6C86B8820D197E8003FAD06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C86B8B20D197E8003FAD06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6C86B8D20D197E8003FAD06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C86B9320D1A2E1003FAD06 /* PersistenceServise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceServise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 		D6C86B7D20D197E6003FAD06 /* SavingData */ = {
 			isa = PBXGroup;
 			children = (
+				D641880720D29AC00077BF05 /* Person+CoreDataClass.swift */,
+				D641880820D29AC00077BF05 /* Person+CoreDataProperties.swift */,
 				D6C86B7E20D197E6003FAD06 /* AppDelegate.swift */,
+				D6C86B9320D1A2E1003FAD06 /* PersistenceServise.swift */,
 				D6C86B8020D197E6003FAD06 /* ViewController.swift */,
 				D6C86B8220D197E6003FAD06 /* Main.storyboard */,
 				D6C86B8820D197E8003FAD06 /* Assets.xcassets */,
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6C86B8120D197E6003FAD06 /* ViewController.swift in Sources */,
+				D6C86B9420D1A2E1003FAD06 /* PersistenceServise.swift in Sources */,
+				D641880A20D29AC00077BF05 /* Person+CoreDataProperties.swift in Sources */,
+				D641880920D29AC00077BF05 /* Person+CoreDataClass.swift in Sources */,
 				D6C86B7F20D197E6003FAD06 /* AppDelegate.swift in Sources */,
 				D6C86B8720D197E6003FAD06 /* SavingData.xcdatamodeld in Sources */,
 			);
